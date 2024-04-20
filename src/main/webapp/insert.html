@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+
+    <div class="main">
+        <div class="register">
+            <h2>Insert Student Info</h2>
+            <form method="POST" id="register" action="./insert.do">
+                <label>Student ID </label> <br>
+                <input type="number" name="sid" id="name" placeholder="Enter Student ID" required>
+                <br><br>
+
+                <label>Name </label> <br>
+                <input type="text" name="sname" id="name" placeholder="Enter Student's Name" required>
+                <br><br>
+
+                <label>Age </label> <br>
+                <input type="number" name="sage" id="name" placeholder="Enter Student's Age" required>
+                <br><br>
+
+                <label>Address </label> <br>
+                <input type="text" name="saddress" id="name" placeholder="Enter Student's Address" required>
+                <br><br>
+
+                <input type="submit" id="submit" value="Insert">                
+
+
+            </form>
+        </div><!--end register-->
+    </div><!--end main-->
+
+</body>
+</html>

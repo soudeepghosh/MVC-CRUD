@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h2>Read Student Information</h2>
+
+    <form method="POST" action="">
+        <label for="sid">Student ID:</label><br>
+        <input type="text" name="sid"><br><br>
+
+        <input type="submit" value="Read">
+    </form>  -->
+
+    <div class="main">
+        <div class="register">
+            <h2 style="color: #50394c;">Read Student Info</h2>
+            <form method="POST" id="register" action="./read.do">
+                <label style="color: #50394c;">Student ID </label> <br>
+                <input type="number" name="sid" id="name" placeholder="Enter Student ID" required>
+                <br><br>
+
+                <input type="submit" id="submit" value="Read" style="background-color: #50394c;">                
+
+
+            </form>
+        </div><!--end register-->
+    </div><!--end main-->
+</body>
+</html>
